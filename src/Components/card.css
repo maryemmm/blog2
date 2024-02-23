@@ -1,0 +1,61 @@
+.card{
+    display: flex;
+    width: 60rem;
+    margin: 6rem auto;
+    padding: 2rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.card .leftPart{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 30rem;
+    padding: 1rem;
+}
+.card .leftPart .errorType{
+font-family: Poppins,sans-serif;
+font-size: 1rem;
+font-weight: 500;
+color:#25C4F4;
+}
+.card .leftPart h2{
+font-family: Poppins,sans-serif;
+font-size: 2.5rem;
+font-weight: 500;
+margin: 0;
+}
+.card .leftPart .description{
+font-family: Poppins,sans-serif;
+font-size: 1.25rem;
+font-weight: 400;
+color: #475467;
+}
+.card .leftPart .buttons{
+    display: flex;
+    gap: 1rem;
+    padding-top: 1rem;
+}
+.card .leftPart button{
+    width: 8rem;
+    height: 2.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    border: 1px solid #E4E7EC;
+}
+.card .leftPart #home{
+    color: white;
+    background-color: #25C4F4;
+}
+.card .rightPart{
+    width: 30rem;
+}
+.card .rightPart img{
+    width: 100%;
+}
+@media (max-width: 1000px) {
+    .card{
+        display: flex;
+        flex-direction: column;
+    }
+  }
